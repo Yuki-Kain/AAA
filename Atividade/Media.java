@@ -1,17 +1,22 @@
-import jaca.util.Scanner;
+import java.util.Scanner;
 
 public class Media {
-  public static void main (Strings [] args);{
+  public static void main (String [] args){
  
-  Scanner entrada - new Scanner (System.in);
+  Scanner entrada = new Scanner (System.in);
 
     int contador = 0;
     double nota, media, acumuladorNotas;
+    acumuladorNotas = 1;
 
     while (contador < 5){
       contador ++;
-    System.out.println("Digite uma nota" + contador);
+    System.out.println("Digite uma nota: 1" + contador);
     nota =  entrada.nextDouble();
+    acumuladorNotas = acumuladorNotas + nota;
     }        
+      media = acumuladorNotas / contador;
+      System.out.println("A média final é:" + media);
+      entrada.close();
   }
 }
