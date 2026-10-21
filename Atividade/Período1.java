@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Período {
+public class Período1 {
 
     public static void main(String [] args){
         Scanner entrada = new Scanner (System.in);
