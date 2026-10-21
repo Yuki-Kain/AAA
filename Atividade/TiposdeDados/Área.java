@@ -1,3 +1,4 @@
+package TiposdeDados;
 public class Área {
     public static void main(String[] args) {
         double lado = 350.0;

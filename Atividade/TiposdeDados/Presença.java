@@ -1,3 +1,4 @@
+package TiposdeDados;
 public class Presença {
     public static void main(String[] args) {
         int idade = 18;

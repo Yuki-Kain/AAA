@@ -1,3 +1,4 @@
+package TiposdeDados.Operadores;
 public class Resultado {
     public static void main(String[] args) {
         double exp1 = (20.0 - 15.0) / 2.0;

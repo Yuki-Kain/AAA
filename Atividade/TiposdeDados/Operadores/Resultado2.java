@@ -1,3 +1,4 @@
+package TiposdeDados.Operadores;
 public class Resultado2 {
     public static void main(String[] args) {
         boolean exp1 = ((120 - 30) == Math.pow(3, 30));

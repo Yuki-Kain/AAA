@@ -1,3 +1,4 @@
+package SwitchCase;
 public class TabuadaDoCinco {
     public static void main(String[] args) {
         System.out.println("--- Tabuada do 5 ---");
